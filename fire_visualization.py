@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the dataset from the local folder
-df = pd.read_csv("forest+fires/forestfires.csv")
+df = pd.read_csv("forestfires_filtered.csv")
 
 # Ensure "area" column is numeric for visualization
 df["area"] = pd.to_numeric(df["area"], errors="coerce")
